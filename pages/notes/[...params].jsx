@@ -5,10 +5,9 @@ const Page = () => {
     const router = useRouter();
 
     const { params } = router.query;
-    console.log(params)
     return (
         <h1>
-            Note {params[0]}
+            Note
         </h1>
     )
 }
